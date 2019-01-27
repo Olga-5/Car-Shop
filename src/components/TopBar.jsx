@@ -1,0 +1,17 @@
+import React from 'react';
+
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
+
+const TopBar = () => (
+  <AppBar position="static" style={{ marginBottom: '50px' }}>
+    <Toolbar style={{ display: 'flex', justifyContent: 'space-between' }}>
+      <Typography variant="h6" color="inherit">
+        Car Shop
+      </Typography>
+    </Toolbar>
+  </AppBar>
+);
+
+export default TopBar;

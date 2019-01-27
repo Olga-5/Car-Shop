@@ -1,0 +1,106 @@
+export const MANUFACTURES = [
+  { id: 10, value: 'Germany' },
+  { id: 11, value: 'Japan' },
+  { id: 12, value: 'France' },
+];
+
+export const BRANDS = [
+  { id: 1, manufactureId: 10, value: 'Mersedes Benz' },
+  { id: 2, manufactureId: 10, value: 'BMW' },
+  { id: 3, manufactureId: 10, value: 'Opel' },
+  { id: 4, manufactureId: 10, value: 'Volkswagen' },
+  { id: 5, manufactureId: 11, value: 'Mazda' },
+  { id: 6, manufactureId: 11, value: 'Nissan' },
+  { id: 7, manufactureId: 11, value: 'Toyota' },
+  { id: 8, manufactureId: 12, value: 'Citroen' },
+  { id: 9, manufactureId: 12, value: 'Renault' },
+];
+
+export const CARS = [
+  {
+    id: 1,
+    brandId: 8,
+    manufactureId: 12,
+    title: 'Citroen C5',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 12500,
+    img: 'http://www.allcarz.ru/wp-content/uploads/2012/08/foto-citroen-c5-2013_03-650x433.jpg',
+  },
+  {
+    id: 2,
+    brandId: 1,
+    manufactureId: 10,
+    title: 'Mercedes ML350',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 14500,
+    img: 'https://www.imperial-rac.com/wp-content/uploads/2015/09/Mercedes-Benz-ML350-AMG.jpg',
+  },
+  {
+    id: 3,
+    brandId: 7,
+    manufactureId: 11,
+    title: ' Toyota Avensis',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 12700,
+    img: 'http://d1hu588lul0tna.cloudfront.net.cache.rsb.bstd.ru/toyotaone/ruru/highlander_video_555_tcm-3020-875627.jpg',
+  },
+  {
+    id: 4,
+    brandId: 3,
+    manufactureId: 10,
+    title: 'Opel Astra GTC',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 6500,
+    img: 'https://www.opel.ru/content/dam/Opel/Europe/master/hq/en/01_Vehicles/01_PassengerCars/New_Astra_GTC/01_ModelOVerview/02_Flash/MY155/assets/images/AstraGTC_ModelOverview_mm_1_1_992x374_1200_asgtc12_e01_001.jpg',
+  },
+  {
+    id: 5,
+    brandId: 1,
+    manufactureId: 10,
+    title: 'Mercedes E220',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 12800,
+    img: 'https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/18399114543501356x236.jpg?itok=_sQ-wybf',
+  },
+  {
+    id: 6,
+    brandId: 5,
+    manufactureId: 11,
+    title: 'Mazda 6',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 7000,
+    img: 'https://www.mazdausa.com/siteassets/vehicles/2018/mz6/gallery/env-360/2018-mazda-6-sports-sedan.jpg?w=767',
+  },
+  {
+    id: 7,
+    brandId: 5,
+    manufactureId: 11,
+    title: 'Mazda 3',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 6500,
+    img: 'http://cdn.motorpage.ru/Photos/800/1BD4.jpg',
+  },
+  {
+    id: 8,
+    brandId: 9,
+    manufactureId: 12,
+    title: 'Renault Logan',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 10000,
+    img: 'http://cdn.motorpage.ru/Photos/800/Dacia_Logan_1.jpg',
+  },
+  {
+    id: 9,
+    brandId: 9,
+    manufactureId: 12,
+    title: 'Renault Capture',
+    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry',
+    price: 9700,
+    img: 'https://www.topgear.com/sites/default/files/styles/16x9_1280w/public/cars-car/image/2017/08/new_renault_captur_-_july_2017_118.jpg?itok=F8hi5xTs',
+  },
+];
+
+export const FILTERS = {
+  brandId: [],
+  manufactureId: [],
+};
